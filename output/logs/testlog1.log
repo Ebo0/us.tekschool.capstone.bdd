@@ -1,0 +1,40 @@
+2022-05-03 00:01:08,695 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab started
+2022-05-03 00:01:12,281 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab UNDEFINED
+2022-05-03 00:20:37,619 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab started
+2022-05-03 00:20:40,337 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-03 00:20:40,467 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-03 00:20:40,961 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-05-03 00:20:40,995 [main] INFO .\src\test\resources\input\log4j.properties - HP Banner is present in this page
+2022-05-03 00:20:41,011 [main] INFO .\src\test\resources\input\log4j.properties - Desktops is present in this page
+2022-05-03 00:20:41,029 [main] INFO .\src\test\resources\input\log4j.properties - Apple Cinema 30" is present in this page
+2022-05-03 00:20:41,044 [main] INFO .\src\test\resources\input\log4j.properties - Canon EOS 5D Camera is present in this page
+2022-05-03 00:20:41,058 [main] INFO .\src\test\resources\input\log4j.properties - HP LP3065 is present in this page
+2022-05-03 00:20:41,072 [main] INFO .\src\test\resources\input\log4j.properties - HTC Touch HD is present in this page
+2022-05-03 00:20:41,086 [main] INFO .\src\test\resources\input\log4j.properties - iPhone is present in this page
+2022-05-03 00:20:41,101 [main] INFO .\src\test\resources\input\log4j.properties - iPod Classic is present in this page
+2022-05-03 00:20:41,115 [main] INFO .\src\test\resources\input\log4j.properties - MacBook is present in this page
+2022-05-03 00:20:41,128 [main] INFO .\src\test\resources\input\log4j.properties - MacBook Air is present in this page
+2022-05-03 00:20:41,142 [main] INFO .\src\test\resources\input\log4j.properties - Palm Treo Pro is present in this page
+2022-05-03 00:20:41,155 [main] INFO .\src\test\resources\input\log4j.properties - Product 8 is present in this page
+2022-05-03 00:20:41,171 [main] INFO .\src\test\resources\input\log4j.properties - Samsung SyncMaster 941BW is present in this page
+2022-05-03 00:20:41,186 [main] INFO .\src\test\resources\input\log4j.properties - Sony VAIO is present in this page
+2022-05-03 00:20:43,391 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab PASSED
+2022-05-12 19:34:12,580 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab started
+2022-05-12 19:34:16,107 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 19:34:16,246 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 19:34:16,711 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-05-12 19:34:16,746 [main] INFO .\src\test\resources\input\log4j.properties - HP Banner is present in this page
+2022-05-12 19:34:16,761 [main] INFO .\src\test\resources\input\log4j.properties - Desktops is present in this page
+2022-05-12 19:34:16,777 [main] INFO .\src\test\resources\input\log4j.properties - Apple Cinema 30" is present in this page
+2022-05-12 19:34:16,791 [main] INFO .\src\test\resources\input\log4j.properties - Canon EOS 5D Camera is present in this page
+2022-05-12 19:34:16,805 [main] INFO .\src\test\resources\input\log4j.properties - HP LP3065 is present in this page
+2022-05-12 19:34:16,819 [main] INFO .\src\test\resources\input\log4j.properties - HTC Touch HD is present in this page
+2022-05-12 19:34:16,835 [main] INFO .\src\test\resources\input\log4j.properties - iPhone is present in this page
+2022-05-12 19:34:16,849 [main] INFO .\src\test\resources\input\log4j.properties - iPod Classic is present in this page
+2022-05-12 19:34:16,862 [main] INFO .\src\test\resources\input\log4j.properties - MacBook is present in this page
+2022-05-12 19:34:16,876 [main] INFO .\src\test\resources\input\log4j.properties - MacBook Air is present in this page
+2022-05-12 19:34:16,890 [main] INFO .\src\test\resources\input\log4j.properties - Palm Treo Pro is present in this page
+2022-05-12 19:34:16,905 [main] INFO .\src\test\resources\input\log4j.properties - Product 8 is present in this page
+2022-05-12 19:34:16,921 [main] INFO .\src\test\resources\input\log4j.properties - Samsung SyncMaster 941BW is present in this page
+2022-05-12 19:34:16,935 [main] INFO .\src\test\resources\input\log4j.properties - Sony VAIO is present in this page
+2022-05-12 19:34:19,152 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab PASSED
