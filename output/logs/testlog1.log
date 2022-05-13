@@ -38,3 +38,77 @@
 2022-05-12 19:34:16,921 [main] INFO .\src\test\resources\input\log4j.properties - Samsung SyncMaster 941BW is present in this page
 2022-05-12 19:34:16,935 [main] INFO .\src\test\resources\input\log4j.properties - Sony VAIO is present in this page
 2022-05-12 19:34:19,152 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab PASSED
+2022-05-12 20:06:02,786 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab started
+2022-05-12 20:06:05,511 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 20:06:05,653 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 20:06:35,758 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab FAILED
+2022-05-12 20:10:33,938 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab started
+2022-05-12 20:10:36,408 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 20:10:36,543 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 20:10:37,033 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-05-12 20:10:37,065 [main] INFO .\src\test\resources\input\log4j.properties - HP Banner is present in this page
+2022-05-12 20:10:37,082 [main] INFO .\src\test\resources\input\log4j.properties - Desktops is present in this page
+2022-05-12 20:10:37,097 [main] INFO .\src\test\resources\input\log4j.properties - Apple Cinema 30" is present in this page
+2022-05-12 20:10:37,112 [main] INFO .\src\test\resources\input\log4j.properties - Canon EOS 5D Camera is present in this page
+2022-05-12 20:10:37,127 [main] INFO .\src\test\resources\input\log4j.properties - HP LP3065 is present in this page
+2022-05-12 20:10:37,142 [main] INFO .\src\test\resources\input\log4j.properties - HTC Touch HD is present in this page
+2022-05-12 20:10:37,157 [main] INFO .\src\test\resources\input\log4j.properties - iPhone is present in this page
+2022-05-12 20:10:37,171 [main] INFO .\src\test\resources\input\log4j.properties - iPod Classic is present in this page
+2022-05-12 20:10:37,186 [main] INFO .\src\test\resources\input\log4j.properties - MacBook is present in this page
+2022-05-12 20:10:37,201 [main] INFO .\src\test\resources\input\log4j.properties - MacBook Air is present in this page
+2022-05-12 20:10:37,215 [main] INFO .\src\test\resources\input\log4j.properties - Palm Treo Pro is present in this page
+2022-05-12 20:10:37,229 [main] INFO .\src\test\resources\input\log4j.properties - Product 8 is present in this page
+2022-05-12 20:10:37,246 [main] INFO .\src\test\resources\input\log4j.properties - Samsung SyncMaster 941BW is present in this page
+2022-05-12 20:10:37,259 [main] INFO .\src\test\resources\input\log4j.properties - Sony VAIO is present in this page
+2022-05-12 20:10:39,468 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab PASSED
+2022-05-12 20:17:29,440 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-12 20:17:31,794 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page UNDEFINED
+2022-05-12 20:18:05,153 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-12 20:18:07,492 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 20:18:07,671 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 20:18:08,135 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-05-12 20:18:08,175 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page UNDEFINED
+2022-05-12 22:06:19,913 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-12 22:06:22,364 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 22:06:22,507 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 22:06:22,984 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-05-12 22:06:23,030 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page UNDEFINED
+2022-05-12 22:08:11,452 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-12 22:08:13,911 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 22:08:14,045 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 22:08:14,537 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-05-12 22:08:14,574 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart option on item
+2022-05-12 22:08:14,621 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page FAILED
+2022-05-12 22:15:24,804 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-12 22:15:27,200 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 22:15:27,333 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 22:15:27,804 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-05-12 22:15:27,841 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart option on item
+2022-05-12 22:15:28,886 [main] INFO .\src\test\resources\input\log4j.properties - user entered quantity
+2022-05-12 22:15:28,921 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on final add to cart button
+2022-05-12 22:15:33,068 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page FAILED
+2022-05-12 22:17:58,304 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-12 22:18:00,782 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 22:18:00,918 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 22:18:01,399 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-05-12 22:18:01,440 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart option on item
+2022-05-12 22:18:02,549 [main] INFO .\src\test\resources\input\log4j.properties - user entered quantity
+2022-05-12 22:18:02,588 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on final add to cart button
+2022-05-12 22:18:06,767 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page FAILED
+2022-05-12 22:19:01,833 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-12 22:19:04,208 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 22:19:04,341 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 22:19:34,458 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page FAILED
+2022-05-12 22:20:16,632 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-12 22:20:19,062 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 22:20:19,201 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 22:20:49,293 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page FAILED
+2022-05-12 22:24:46,440 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-12 22:24:49,097 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-12 22:24:49,226 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-05-12 22:24:49,713 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-05-12 22:24:49,750 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart option on item
+2022-05-12 22:24:50,902 [main] INFO .\src\test\resources\input\log4j.properties - user entered quantity
+2022-05-12 22:24:50,940 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on final add to cart button
+2022-05-12 22:24:51,093 [main] INFO .\src\test\resources\input\log4j.properties - user validated the success message
+2022-05-12 22:24:56,396 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page PASSED

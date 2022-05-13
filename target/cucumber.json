@@ -1,13 +1,58 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-05-12T23:34:12.462Z",
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 57012600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128027700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 486109600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-13T02:24:46.332Z",
         "before": [
           {
             "result": {
-              "duration": 3539719800,
+              "duration": 2658984300,
               "status": "passed"
             },
             "match": {
@@ -15,14 +60,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "User verify all items are present in Desktop tab",
+        "line": 11,
+        "name": "User add laptop into shopping cart from Desktops page",
         "description": "",
-        "id": "retail-desktop-page;user-verify-all-items-are-present-in-desktop-tab",
+        "id": "user-add-hp-lp-3065-from-desktops-tab-to-the-cart;user-add-laptop-into-shopping-cart-from-desktops-page",
         "after": [
           {
             "result": {
-              "duration": 40008900,
+              "duration": 4148527400,
               "status": "passed"
             },
             "match": {
@@ -35,65 +80,89 @@
         "steps": [
           {
             "result": {
-              "duration": 59014200,
+              "duration": 35772800,
               "status": "passed"
             },
-            "line": 5,
-            "name": "user is on Retail home page",
+            "line": 12,
+            "name": "User click on ADD TO CART option on HP LP3065 item",
             "match": {
-              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 138029900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User click on Desktops tab",
-            "match": {
-              "location": "step.definitions.DesktopStepDef.user_click_on_desktops_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 465221400,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User click on Show all desktops",
-            "match": {
-              "location": "step.definitions.DesktopStepDef.user_click_on_show_all_desktops()"
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_click_on_add_to_cart_option_on_item()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2400921100,
+              "duration": 1153513600,
               "status": "passed"
             },
-            "line": 8,
-            "name": "User should see all items are present in Desktop page",
+            "line": 13,
+            "name": "User select quantity \"1\"",
             "match": {
-              "location": "step.definitions.DesktopStepDef.user_should_see_all_items_are_present_in_desktop_page()"
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_select_quantity(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37008300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click add to cart button",
+            "match": {
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_click_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1305071800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see a message \"Success: you have added HP LP 3065 to your Shopping Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: you have added HP LP 3065 to your Shopping Cart\"",
+                  "offset": 26
+                }
+              ],
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_should_see_a_message(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@desktopTest"
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@addProductToCart"
           }
         ]
       }
     ],
-    "name": "Retail desktop page",
+    "name": "User add HP LP 3065 from Desktops tab to the cart",
     "description": "",
-    "id": "retail-desktop-page",
+    "id": "user-add-hp-lp-3065-from-desktops-tab-to-the-cart",
     "keyword": "Feature",
-    "uri": "classpath:feature/Desktops.feature",
-    "tags": []
+    "uri": "classpath:feature/AddToCartFromDesktopsPage.feature",
+    "tags": [
+      {
+        "name": "@CompleteTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
