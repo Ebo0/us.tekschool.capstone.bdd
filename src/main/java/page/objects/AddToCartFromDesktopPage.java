@@ -21,7 +21,7 @@ public class AddToCartFromDesktopPage extends Base {
 	@FindBy(xpath = "//div[@class='form-group']//button[text()='Add to Cart']")
 	private WebElement finalAddToCartButton;
 
-	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
+	@FindBy(linkText = "shopping cart")
 	private WebElement successMessageAfterAddToCart;
 
 	public void clickOnAddToCartButton() {

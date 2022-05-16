@@ -27,9 +27,6 @@ public class AddCanonEos5D extends Base{
 	@FindBy(id="button-cart")
 	private WebElement finalAddButton;
 	
-	@FindBy(linkText="Canon EOS 5D Camera")
-	private WebElement successMessage;
-	
 	public void clickOnAddCanonEos5DToCartButton(){
 		addCanonEos5DToCartButton.click();
 	}
@@ -45,10 +42,5 @@ public class AddCanonEos5D extends Base{
 	public void finallyAddtoCart() {
 		finalAddButton.click();
 	}
-	public boolean successMessageIsDisplayed()  {
-		if(successMessage.isDisplayed()) 
-			return true;
-		else 
-			return false;
-	}
+
 }

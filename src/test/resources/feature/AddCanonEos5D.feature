@@ -5,9 +5,10 @@ Background:
 		Given user is on Retail home page 
 		When User click on Desktops tab
 		And User click on Show all desktops
+		
 
 @addProductToCart 
-Scenario: Title of your scenario outline
+Scenario: User add Canon EOS 5D into shopping cart from Desktops Page
 		And User click ADD TO CART option on Canon EOS 5D item
 		And User select color from dropdown Red
 		And User select quantity "1"
