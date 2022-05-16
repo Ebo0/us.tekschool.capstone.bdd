@@ -112,3 +112,40 @@
 2022-05-12 22:24:50,940 - .\src\test\resources\input\log4j.properties -INFO - user clicked on final add to cart button
 2022-05-12 22:24:51,093 - .\src\test\resources\input\log4j.properties -INFO - user validated the success message
 2022-05-12 22:24:56,396 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add laptop into shopping cart from Desktops page PASSED
+2022-05-13 22:11:47,802 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-13 22:11:51,648 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-05-13 22:11:51,786 - .\src\test\resources\input\log4j.properties -INFO - user clicked on the desktop tag
+2022-05-13 22:11:52,295 - .\src\test\resources\input\log4j.properties -INFO - user clicked on show all desktop tag
+2022-05-13 22:11:52,333 - .\src\test\resources\input\log4j.properties -INFO - user clicked on add to cart option on item
+2022-05-13 22:11:53,531 - .\src\test\resources\input\log4j.properties -INFO - user entered quantity
+2022-05-13 22:11:53,572 - .\src\test\resources\input\log4j.properties -INFO - user clicked on final add to cart button
+2022-05-13 22:11:53,746 - .\src\test\resources\input\log4j.properties -INFO - user validated the success message
+2022-05-13 22:11:59,030 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add laptop into shopping cart from Desktops page PASSED
+2022-05-15 23:39:01,742 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario outline started
+2022-05-15 23:39:05,291 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-05-15 23:39:05,424 - .\src\test\resources\input\log4j.properties -INFO - user clicked on the desktop tag
+2022-05-15 23:39:05,928 - .\src\test\resources\input\log4j.properties -INFO - user clicked on show all desktop tag
+2022-05-15 23:39:05,978 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario outline UNDEFINED
+2022-05-15 23:39:05,998 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-15 23:39:08,019 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-05-15 23:39:08,151 - .\src\test\resources\input\log4j.properties -INFO - user clicked on the desktop tag
+2022-05-15 23:39:38,247 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add laptop into shopping cart from Desktops page FAILED
+2022-05-16 18:32:02,228 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario outline started
+2022-05-16 18:32:05,319 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-05-16 18:32:05,454 - .\src\test\resources\input\log4j.properties -INFO - user clicked on the desktop tag
+2022-05-16 18:32:05,937 - .\src\test\resources\input\log4j.properties -INFO - user clicked on show all desktop tag
+2022-05-16 18:32:05,975 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Canon EOS 5D add to cart button
+2022-05-16 18:32:07,123 - .\src\test\resources\input\log4j.properties -INFO - user chose color red
+2022-05-16 18:32:07,207 - .\src\test\resources\input\log4j.properties -INFO - user entered quantity
+2022-05-16 18:32:07,271 - .\src\test\resources\input\log4j.properties -INFO - user finally added Canon EOS 5D into shopping cart
+2022-05-16 18:32:07,413 - .\src\test\resources\input\log4j.properties -INFO - user validated the success message
+2022-05-16 18:32:12,708 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario outline PASSED
+2022-05-16 18:32:12,717 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add laptop into shopping cart from Desktops page started
+2022-05-16 18:32:14,752 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-05-16 18:32:14,875 - .\src\test\resources\input\log4j.properties -INFO - user clicked on the desktop tag
+2022-05-16 18:32:15,343 - .\src\test\resources\input\log4j.properties -INFO - user clicked on show all desktop tag
+2022-05-16 18:32:15,375 - .\src\test\resources\input\log4j.properties -INFO - user clicked on add to cart option on item
+2022-05-16 18:32:16,615 - .\src\test\resources\input\log4j.properties -INFO - user entered quantity
+2022-05-16 18:32:16,650 - .\src\test\resources\input\log4j.properties -INFO - user clicked on final add to cart button
+2022-05-16 18:32:16,854 - .\src\test\resources\input\log4j.properties -INFO - user validated the success message
+2022-05-16 18:32:22,153 - .\src\test\resources\input\log4j.properties -INFO - Scenario User add laptop into shopping cart from Desktops page PASSED
