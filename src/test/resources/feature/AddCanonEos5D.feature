@@ -7,7 +7,7 @@ Background:
 		And User click on Show all desktops
 		
 
-@addProductToCart 
+@addProductToCart @desktopTest
 Scenario: User add Canon EOS 5D into shopping cart from Desktops Page
 		And User click ADD TO CART option on Canon EOS 5D item
 		And User select color from dropdown Red

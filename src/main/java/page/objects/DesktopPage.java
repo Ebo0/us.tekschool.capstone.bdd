@@ -35,6 +35,12 @@ public class DesktopPage extends Base {
 	public void clickOnDesktoptag() {
 		Actions action = new Actions(driver);
 		action.moveToElement(desktopTag).build().perform();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	public void clickOnShowAllTag() {

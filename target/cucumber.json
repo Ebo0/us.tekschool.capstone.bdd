@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52011100,
+              "duration": 51011900,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 130779100,
+              "duration": 3136163500,
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 452105500,
+              "duration": 488850800,
               "status": "passed"
             },
             "line": 7,
@@ -48,11 +48,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-05-16T22:55:05.661Z",
+        "start_timestamp": "2022-05-17T04:10:05.616Z",
         "before": [
           {
             "result": {
-              "duration": 2522889900,
+              "duration": 2531454900,
               "status": "passed"
             },
             "match": {
@@ -60,14 +60,14 @@
             }
           }
         ],
-        "line": 11,
-        "name": "User add Canon EOS 5D into shopping cart from Desktops Page",
+        "line": 21,
+        "name": "User add review to Canon EOS 5D from Desktops tab",
         "description": "",
-        "id": "user-add-canon-eos-5d-from-desktops-tab-to-the-cart;user-add-canon-eos-5d-into-shopping-cart-from-desktops-page",
+        "id": "user-add-review-to-canon-eos-5d-from-desktops-tab;user-add-review-to-canon-eos-5d-from-desktops-tab;;2",
         "after": [
           {
             "result": {
-              "duration": 4172315200,
+              "duration": 4164122100,
               "status": "passed"
             },
             "match": {
@@ -76,77 +76,84 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 38009600,
+              "duration": 1480858100,
               "status": "passed"
             },
             "line": 12,
-            "name": "User click ADD TO CART option on Canon EOS 5D item",
+            "name": "User click on Canon EOS 5D item",
             "match": {
-              "location": "step.definitions.AddCanonEos5DStepDef.user_click_add_to_cart_option_on_canon_eos_5d_item()"
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_click_on_canon_eos_5d_item()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1122682100,
+              "duration": 45009900,
               "status": "passed"
             },
             "line": 13,
-            "name": "User select color from dropdown Red",
+            "name": "User click on write a review link",
             "match": {
-              "location": "step.definitions.AddCanonEos5DStepDef.user_select_color_from_dropdown_red()"
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_click_on_write_a_review_link()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 74015500,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been \"select\" but was \"input\"\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-GNRUHDK\u0027, ip: \u002710.0.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:48)\r\n\tat page.objects.AddReviewToCanonEos5D.fillReviewForm(AddReviewToCanonEos5D.java:59)\r\n\tat step.definitions.AddReviewToCanonEos5DStepDef.user_fill_the_review_information_with_below_information(AddReviewToCanonEos5DStepDef.java:28)\r\n\tat ✽.user fill the review information with below information \"yourname\" \"Lorem ipsum dolor sit amet, consectetur tincidunt.\" \"3\"(classpath:feature/AddReviewToCanonEos5D.feature:14)\r\n",
+              "duration": 3129133000,
+              "status": "failed"
             },
             "line": 14,
-            "name": "User select quantity \"1\"",
+            "name": "user fill the review information with below information \"yourname\" \"Lorem ipsum dolor sit amet, consectetur tincidunt.\" \"3\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"1\"",
-                  "offset": 21
+                  "val": "\"yourname\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"Lorem ipsum dolor sit amet, consectetur tincidunt.\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 120
                 }
               ],
-              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_select_quantity(java.lang.String)"
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_fill_the_review_information_with_below_information(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 66017100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
-            "name": "User click add to Cart button",
+            "name": "User click on Continue Button",
             "match": {
-              "location": "step.definitions.AddCanonEos5DStepDef.user_click_add_to_cart_button()"
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_click_on_continue_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1335672100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
-            "name": "User should see a message \"Success: You have added Canon EOS 5D to your shopping cart!\"",
+            "name": "User should see a message with \"Thank you for your review. It has been submitted to the webmaster for approval.\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Success: You have added Canon EOS 5D to your shopping cart!\"",
-                  "offset": 26
+                  "val": "\"Thank you for your review. It has been submitted to the webmaster for approval.\"",
+                  "offset": 31
                 }
               ],
-              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_should_see_a_message(java.lang.String)"
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_should_see_a_message_with(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -156,182 +163,19 @@
             "name": "@CompleteTest"
           },
           {
-            "name": "@addProductToCart"
+            "name": "@addReviewToCanonEos5D"
+          },
+          {
+            "name": "@desktopTest"
           }
         ]
       }
     ],
-    "name": "User add Canon EOS 5D from Desktops tab to the cart",
+    "name": "User add review to Canon EOS 5D from Desktops tab",
     "description": "",
-    "id": "user-add-canon-eos-5d-from-desktops-tab-to-the-cart",
+    "id": "user-add-review-to-canon-eos-5d-from-desktops-tab",
     "keyword": "Feature",
-    "uri": "classpath:feature/AddCanonEos5D.feature",
-    "tags": [
-      {
-        "name": "@CompleteTest",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 26005900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on Retail home page",
-            "match": {
-              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 138030300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User click on Desktops tab",
-            "match": {
-              "location": "step.definitions.DesktopStepDef.user_click_on_desktops_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 509457600,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User click on Show all desktops",
-            "match": {
-              "location": "step.definitions.DesktopStepDef.user_click_on_show_all_desktops()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-16T22:55:15.684Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1845126500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "User add laptop into shopping cart from Desktops page",
-        "description": "",
-        "id": "user-add-hp-lp-3065-from-desktops-tab-to-the-cart;user-add-laptop-into-shopping-cart-from-desktops-page",
-        "after": [
-          {
-            "result": {
-              "duration": 4161154700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 36008700,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User click on ADD TO CART option on HP LP3065 item",
-            "match": {
-              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_click_on_add_to_cart_option_on_item()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1024913900,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User select quantity \"1\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1\"",
-                  "offset": 21
-                }
-              ],
-              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_select_quantity(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 33008700,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User click add to cart button",
-            "match": {
-              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_click_add_to_cart_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1345649800,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User should see a message \"Success: you have added HP LP 3065 to your Shopping Cart\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Success: you have added HP LP 3065 to your Shopping Cart\"",
-                  "offset": 26
-                }
-              ],
-              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_should_see_a_message(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@CompleteTest"
-          },
-          {
-            "name": "@addProductToCart"
-          }
-        ]
-      }
-    ],
-    "name": "User add HP LP 3065 from Desktops tab to the cart",
-    "description": "",
-    "id": "user-add-hp-lp-3065-from-desktops-tab-to-the-cart",
-    "keyword": "Feature",
-    "uri": "classpath:feature/AddToCartFromDesktopsPage.feature",
+    "uri": "classpath:feature/AddReviewToCanonEos5D.feature",
     "tags": [
       {
         "name": "@CompleteTest",

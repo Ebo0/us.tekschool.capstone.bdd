@@ -7,7 +7,7 @@ Background:
 		When User click on Desktops tab
 		And User click on Show all desktops
 
-@addProductToCart 
+@addProductToCart @desktopTest
 Scenario: User add laptop into shopping cart from Desktops page
     And User click on ADD TO CART option on HP LP3065 item
     And User select quantity "1"
