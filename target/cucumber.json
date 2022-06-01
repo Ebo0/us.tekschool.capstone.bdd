@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51011500,
+              "duration": 54011400,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 41008500,
+              "duration": 37008900,
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 357085900,
+              "duration": 360068200,
               "status": "passed"
             },
             "line": 7,
@@ -48,11 +48,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-01T04:25:06.435Z",
+        "start_timestamp": "2022-06-01T05:03:34.353Z",
         "before": [
           {
             "result": {
-              "duration": 2505336700,
+              "duration": 2498910400,
               "status": "passed"
             },
             "match": {
@@ -61,13 +61,13 @@
           }
         ],
         "line": 10,
-        "name": "",
+        "name": "Product Comparison",
         "description": "",
-        "id": "product-comparison;",
+        "id": "product-comparison;product-comparison",
         "after": [
           {
             "result": {
-              "duration": 43009200,
+              "duration": 42219900,
               "status": "passed"
             },
             "match": {
@@ -80,25 +80,61 @@
         "steps": [
           {
             "result": {
-              "duration": 39007500,
+              "duration": 42008700,
               "status": "passed"
             },
             "line": 11,
-            "name": "User click on heart icon to add ‘Sony VaIO’ laptop to wish list",
+            "name": "User click on product comparison icon on ‘MacBook’",
             "match": {
-              "location": "step.definitions.ProductComparisonStepDef.user_click_on_heart_icon_to_add_sony_va_io_laptop_to_wish_list()"
+              "location": "step.definitions.ProductComparisonStepDef.user_click_on_product_comparison_icon_on_mac_book()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2313630500,
+              "duration": 32007000,
               "status": "passed"
             },
             "line": 12,
-            "name": "User should get a message ‘You must login or create an account to save Sony VAIO to your wish list!’",
+            "name": "User click on product comparison icon on ‘MacBook Air",
             "match": {
-              "location": "step.definitions.ProductComparisonStepDef.user_should_get_a_message_you_must_login_or_create_an_account_to_save_sony_vaio_to_your_wish_list()"
+              "location": "step.definitions.ProductComparisonStepDef.user_click_on_product_comparison_icon_on_mac_book_air()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1031763900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should see a message ‘Success: You have added MacBook Air to your product comparison!’",
+            "match": {
+              "location": "step.definitions.ProductComparisonStepDef.user_should_see_a_message_success_you_have_added_mac_book_air_to_your_product_comparison()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 278272600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on Product comparison link",
+            "match": {
+              "location": "step.definitions.ProductComparisonStepDef.user_click_on_product_comparison_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2153128400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see Product Comparison Chart",
+            "match": {
+              "location": "step.definitions.ProductComparisonStepDef.user_should_see_product_comparison_chart()"
             },
             "keyword": "Then "
           }
@@ -108,7 +144,7 @@
             "name": "@CompleteTest"
           },
           {
-            "name": "@ProductComparison"
+            "name": "@ProductComparisons"
           }
         ]
       }

@@ -6,7 +6,10 @@ Feature: Product Comparison
     When User click on Laptop &NoteBook tab
     And User click on Show all Laptop &NoteBook option
 
-@ProductComparison
-  Scenario: 
-    And User click on heart icon to add ‘Sony VaIO’ laptop to wish list
-    Then User should get a message ‘You must login or create an account to save Sony VAIO to your wish list!’
+  @ProductComparisons
+  Scenario: Product Comparison
+    And User click on product comparison icon on ‘MacBook’
+    And User click on product comparison icon on ‘MacBook Air
+    Then User should see a message ‘Success: You have added MacBook Air to your product comparison!’
+    And User click on Product comparison link
+    Then User should see Product Comparison Chart

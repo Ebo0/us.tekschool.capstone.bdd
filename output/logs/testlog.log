@@ -855,3 +855,95 @@
 2022-06-01 00:25:09,479 - .\src\test\resources\input\log4j.properties -INFO - user clicked on heart button
 2022-06-01 00:25:09,630 - .\src\test\resources\input\log4j.properties -INFO - Login required message displayed
 2022-06-01 00:25:11,836 - .\src\test\resources\input\log4j.properties -INFO - Scenario  PASSED
+2022-06-01 00:34:42,094 - .\src\test\resources\input\log4j.properties -INFO - Scenario  started
+2022-06-01 00:34:44,511 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 00:34:44,550 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:34:44,915 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 00:34:44,956 - .\src\test\resources\input\log4j.properties -INFO - user clicked on heart button
+2022-06-01 00:34:45,103 - .\src\test\resources\input\log4j.properties -INFO - Login required message displayed
+2022-06-01 00:34:47,335 - .\src\test\resources\input\log4j.properties -INFO - Scenario  PASSED
+2022-06-01 00:34:47,385 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario started
+2022-06-01 00:34:49,380 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 00:34:49,417 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:34:49,789 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 00:34:49,827 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario UNDEFINED
+2022-06-01 00:36:15,344 - .\src\test\resources\input\log4j.properties -INFO - Scenario  started
+2022-06-01 00:36:17,786 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 00:36:17,828 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:36:18,192 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 00:36:18,235 - .\src\test\resources\input\log4j.properties -INFO - user clicked on heart button
+2022-06-01 00:36:18,372 - .\src\test\resources\input\log4j.properties -INFO - Login required message displayed
+2022-06-01 00:36:20,583 - .\src\test\resources\input\log4j.properties -INFO - Scenario  PASSED
+2022-06-01 00:36:20,634 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario started
+2022-06-01 00:36:22,698 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 00:36:22,743 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:36:23,102 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 00:36:23,144 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario UNDEFINED
+2022-06-01 00:36:57,582 - .\src\test\resources\input\log4j.properties -INFO - Scenario  started
+2022-06-01 00:36:59,946 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 00:36:59,992 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:37:00,357 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 00:37:00,398 - .\src\test\resources\input\log4j.properties -INFO - user clicked on heart button
+2022-06-01 00:37:00,547 - .\src\test\resources\input\log4j.properties -INFO - Login required message displayed
+2022-06-01 00:37:02,771 - .\src\test\resources\input\log4j.properties -INFO - Scenario  PASSED
+2022-06-01 00:37:02,824 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario started
+2022-06-01 00:37:04,827 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 00:37:04,869 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:37:05,242 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 00:37:05,280 - .\src\test\resources\input\log4j.properties -INFO - Scenario Title of your scenario UNDEFINED
+2022-06-01 00:37:48,545 - .\src\test\resources\input\log4j.properties -INFO - Scenario Adding an item to Wish list started
+2022-06-01 00:37:50,962 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 00:37:51,000 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:37:51,373 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 00:37:51,417 - .\src\test\resources\input\log4j.properties -INFO - user clicked on heart button
+2022-06-01 00:37:51,569 - .\src\test\resources\input\log4j.properties -INFO - Login required message displayed
+2022-06-01 00:37:53,784 - .\src\test\resources\input\log4j.properties -INFO - Scenario Adding an item to Wish list PASSED
+2022-06-01 00:38:10,991 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison started
+2022-06-01 00:38:13,478 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 00:38:13,521 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:38:13,889 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 00:38:13,942 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison UNDEFINED
+2022-06-01 00:59:30,881 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison started
+2022-06-01 00:59:33,265 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 00:59:33,303 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:59:33,665 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 00:59:33,709 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook
+2022-06-01 00:59:33,740 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook air
+2022-06-01 00:59:33,761 - .\src\test\resources\input\log4j.properties -INFO - user validates success message
+2022-06-01 00:59:33,892 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison FAILED
+2022-06-01 01:00:45,385 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison started
+2022-06-01 01:00:47,754 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 01:00:47,793 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 01:00:48,163 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 01:00:48,205 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook
+2022-06-01 01:00:48,237 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook air
+2022-06-01 01:00:48,261 - .\src\test\resources\input\log4j.properties -INFO - user validates success message
+2022-06-01 01:00:48,395 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison FAILED
+2022-06-01 01:02:11,074 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison started
+2022-06-01 01:02:13,597 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 01:02:13,639 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 01:02:14,008 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 01:02:14,052 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook
+2022-06-01 01:02:15,087 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook air
+2022-06-01 01:02:16,110 - .\src\test\resources\input\log4j.properties -INFO - user validates success message
+2022-06-01 01:02:17,408 - .\src\test\resources\input\log4j.properties -INFO - user click on product compare link
+2022-06-01 01:02:18,446 - .\src\test\resources\input\log4j.properties -INFO - user validates comparison table displayed
+2022-06-01 01:02:24,750 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison PASSED
+2022-06-01 01:02:53,411 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison started
+2022-06-01 01:02:55,856 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 01:02:55,896 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 01:02:56,260 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 01:02:56,302 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook
+2022-06-01 01:02:56,335 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook air
+2022-06-01 01:02:56,359 - .\src\test\resources\input\log4j.properties -INFO - user validates success message
+2022-06-01 01:02:56,493 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison FAILED
+2022-06-01 01:03:34,458 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison started
+2022-06-01 01:03:36,950 - .\src\test\resources\input\log4j.properties -INFO - user is on Home Page
+2022-06-01 01:03:36,988 - .\src\test\resources\input\log4j.properties -INFO - user clicked on Laptops & Notebooks navbar
+2022-06-01 01:03:37,348 - .\src\test\resources\input\log4j.properties -INFO - User clicked on show all laptops and notebook link
+2022-06-01 01:03:37,391 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook
+2022-06-01 01:03:37,424 - .\src\test\resources\input\log4j.properties -INFO - user clicked on compare button on macbook air
+2022-06-01 01:03:37,447 - .\src\test\resources\input\log4j.properties -INFO - user validates success message
+2022-06-01 01:03:38,735 - .\src\test\resources\input\log4j.properties -INFO - user click on product compare link
+2022-06-01 01:03:38,762 - .\src\test\resources\input\log4j.properties -INFO - user validates comparison table displayed
+2022-06-01 01:03:40,933 - .\src\test\resources\input\log4j.properties -INFO - Scenario Product Comparison PASSED

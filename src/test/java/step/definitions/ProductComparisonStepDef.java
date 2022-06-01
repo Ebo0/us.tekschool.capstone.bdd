@@ -6,19 +6,43 @@ import io.cucumber.java.en.When;
 import page.objects.ProductComparison;
 import utilities.Util;
 
-public class ProductComparisonStepDef extends Base {
+public class ProductComparisonStepDef extends Base{
 	
 	ProductComparison productComparison = new ProductComparison();
-
-	@When("User click on heart icon to add ‘Sony VaIO’ laptop to wish list")
-	public void user_click_on_heart_icon_to_add_sony_va_io_laptop_to_wish_list() {
-		productComparison.clickOnHeartButton();
-		logger.info("user clicked on heart button");
+	
+	@When("User click on product comparison icon on ‘MacBook’")
+	public void user_click_on_product_comparison_icon_on_mac_book() {
+		productComparison.clickOnCompareButtonOnMac();
+		logger.info("user clicked on compare button on macbook");
 	}
-	@Then("User should get a message ‘You must login or create an account to save Sony VAIO to your wish list!’")
-	public void user_should_get_a_message_you_must_login_or_create_an_account_to_save_sony_vaio_to_your_wish_list() {
-		productComparison.requiredMessageIsDisplayed();
-		logger.info("Login required message displayed");
+	@When("User click on product comparison icon on ‘MacBook Air")
+	public void user_click_on_product_comparison_icon_on_mac_book_air() {
+		productComparison.clickOnCompareButtonOnMacAir();
+		logger.info("user clicked on compare button on macbook air");
+
+	}
+	@Then("User should see a message ‘Success: You have added MacBook Air to your product comparison!’")
+	public void user_should_see_a_message_success_you_have_added_mac_book_air_to_your_product_comparison() {
+		productComparison.successMessageIsDisplayed();
+		logger.info("user validates success message");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+	@Then("User click on Product comparison link")
+	public void user_click_on_product_comparison_link() {
+		productComparison.clickOnProductComparisonLink();
+		logger.info("user click on product compare link");
+
+	}
+	@Then("User should see Product Comparison Chart")
+	public void user_should_see_product_comparison_chart() {
+		productComparison.tableIsDisplayed();
+		logger.info("user validates comparison table displayed");
 		
 		try {
 			Thread.sleep(2000);
@@ -26,6 +50,9 @@ public class ProductComparisonStepDef extends Base {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		Util.takeScreenShot();
+
 	}
+
 }

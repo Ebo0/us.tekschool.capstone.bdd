@@ -12,20 +12,45 @@ public class ProductComparison extends Base {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "(//button[@data-original-title='Add to Wish List'])[5]")
-	private WebElement SonyVaioHeartButton;
+	@FindBy(xpath = "(//button[@data-original-title='Compare this Product'])[2]")
+	private WebElement compareButtonOnMacbook;
 
-	@FindBy(xpath = "//div//a[text()='login']")
-	private WebElement requiredMessage;
+	@FindBy(xpath = "(//button[@data-original-title='Compare this Product'])[3]")
+	private WebElement compareButtonOnMacbookAir;
 
-	public void clickOnHeartButton() {
-		SonyVaioHeartButton.click();
+	@FindBy(xpath = "(//div//a[text()='MacBook Air'])[1]")
+	private WebElement successAddedToComparisonMessage;
+
+	@FindBy(xpath = "//div//a[text()='product comparison']")
+	private WebElement productComparisonLink;
+
+	@FindBy(xpath = "//table//tbody[1]")
+	private WebElement assertionTable;
+
+	public void clickOnCompareButtonOnMac() {
+		compareButtonOnMacbook.click();
 	}
 
-	public boolean requiredMessageIsDisplayed() {
-		if (requiredMessage.isDisplayed())
+	public void clickOnCompareButtonOnMacAir() {
+		compareButtonOnMacbookAir.click();
+	}
+
+	public boolean successMessageIsDisplayed() {
+		if (successAddedToComparisonMessage.isDisplayed())
 			return true;
 		else
 			return false;
 	}
+
+	public void clickOnProductComparisonLink() {
+		productComparisonLink.click();
+	}
+
+	public boolean tableIsDisplayed() {
+		if (assertionTable.isDisplayed())
+			return true;
+		else
+			return false;
+	}
+
 }
