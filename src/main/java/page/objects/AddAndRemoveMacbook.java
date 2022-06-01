@@ -62,9 +62,9 @@ public class AddAndRemoveMacbook extends Base{
 		}
 	}
 	
-	public boolean checkingTotalOfAmount(String amount)  {
+	public boolean checkingTotalOfAmount(String qty, String amount)  {
 		String totalPriceAmount = totalOfCart.getText();
-		if(totalPriceAmount.contains(amount)) {
+		if(totalPriceAmount.contains(amount) && totalPriceAmount.contains(qty)) {
 			return true; }
 			else {
 				return false;

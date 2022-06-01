@@ -634,3 +634,144 @@
 2022-05-26 23:23:29,861 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
 2022-05-26 23:23:32,463 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
 2022-05-26 23:23:32,511 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:25:58,012 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:26:02,158 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:26:32,256 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart FAILED
+2022-05-31 23:36:29,756 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:36:32,194 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:36:32,238 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:36:32,610 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:36:33,591 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:36:33,628 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-05-31 23:36:33,649 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:36:37,805 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:38:42,988 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:38:45,509 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:38:45,553 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:38:45,925 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:38:46,930 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:38:46,966 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-05-31 23:38:46,986 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:38:51,155 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:40:01,569 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:40:04,241 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:40:04,279 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:40:04,669 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:40:05,670 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:40:05,708 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-05-31 23:40:05,730 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:40:09,887 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:40:57,893 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:41:00,449 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:41:00,491 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:41:00,855 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:41:02,159 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:41:02,194 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-05-31 23:41:02,216 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:41:06,336 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart FAILED
+2022-05-31 23:42:31,178 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:42:33,669 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:42:33,708 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:42:34,078 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:42:34,999 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:42:35,035 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-05-31 23:42:35,056 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:42:39,207 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:43:34,754 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:43:37,273 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:43:37,317 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:43:37,692 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:43:38,640 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:43:38,677 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-05-31 23:43:38,701 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:43:42,858 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart FAILED
+2022-05-31 23:44:42,366 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:44:44,886 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:44:44,927 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:44:45,299 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:44:46,248 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:44:46,287 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-05-31 23:44:46,307 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:44:50,454 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:45:16,714 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:45:19,285 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:45:19,325 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:45:19,699 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:45:20,677 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:45:20,712 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-05-31 23:45:20,734 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:45:24,911 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:45:44,607 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:45:47,083 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:45:47,122 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:45:47,485 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:45:48,399 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:45:48,436 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-05-31 23:45:48,457 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:45:52,618 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:46:59,585 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:47:02,152 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:47:02,191 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:47:02,555 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:47:03,490 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:47:07,637 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:48:00,756 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:48:03,214 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:48:03,257 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:48:03,628 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:48:04,554 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:48:04,587 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart button
+2022-05-31 23:48:04,609 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:48:08,732 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:48:43,379 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:48:45,790 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:48:45,834 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:48:46,215 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:48:47,228 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:48:47,259 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart button
+2022-05-31 23:48:47,279 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:48:51,428 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:49:29,600 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:49:31,995 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:49:32,036 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:49:32,423 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:49:33,249 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:49:33,280 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart button
+2022-05-31 23:49:33,301 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:49:37,444 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:53:07,887 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:53:10,310 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:53:10,354 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:53:10,717 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:53:11,634 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:53:11,665 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart button
+2022-05-31 23:53:11,687 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:53:15,827 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:53:45,716 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:53:48,139 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:53:48,178 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:53:48,539 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:53:49,457 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:53:49,488 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart button
+2022-05-31 23:53:49,509 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:53:53,644 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart UNDEFINED
+2022-05-31 23:54:55,526 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:54:57,853 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:54:57,895 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:54:58,255 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:54:59,163 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:54:59,194 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart button
+2022-05-31 23:54:59,215 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:55:03,371 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart FAILED
+2022-05-31 23:58:12,898 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-05-31 23:58:15,356 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-05-31 23:58:15,399 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-05-31 23:58:15,777 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-05-31 23:58:16,754 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-05-31 23:58:16,785 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart button
+2022-05-31 23:58:16,805 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-05-31 23:58:16,965 [main] INFO .\src\test\resources\input\log4j.properties - user sees qty and total price in the shopping cart
+2022-05-31 23:58:16,998 [main] INFO .\src\test\resources\input\log4j.properties - user click on shopping cart button
+2022-05-31 23:58:17,081 [main] INFO .\src\test\resources\input\log4j.properties - user click on red X remove button
+2022-05-31 23:58:17,350 [main] INFO .\src\test\resources\input\log4j.properties - user assert the total of shopping cart is zero
+2022-05-31 23:58:21,481 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart PASSED
