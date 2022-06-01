@@ -775,3 +775,83 @@
 2022-05-31 23:58:17,081 [main] INFO .\src\test\resources\input\log4j.properties - user click on red X remove button
 2022-05-31 23:58:17,350 [main] INFO .\src\test\resources\input\log4j.properties - user assert the total of shopping cart is zero
 2022-05-31 23:58:21,481 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart PASSED
+2022-06-01 00:04:39,523 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart started
+2022-06-01 00:04:41,961 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-01 00:04:42,001 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:04:42,387 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-06-01 00:04:43,376 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Macbook
+2022-06-01 00:04:43,408 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart button
+2022-06-01 00:04:43,429 [main] INFO .\src\test\resources\input\log4j.properties - User added macbook into shopping cart
+2022-06-01 00:04:43,577 [main] INFO .\src\test\resources\input\log4j.properties - user sees qty and total price in the shopping cart
+2022-06-01 00:04:43,608 [main] INFO .\src\test\resources\input\log4j.properties - user click on shopping cart button
+2022-06-01 00:04:43,705 [main] INFO .\src\test\resources\input\log4j.properties - user click on red X remove button
+2022-06-01 00:04:43,970 [main] INFO .\src\test\resources\input\log4j.properties - user assert the total of shopping cart is zero
+2022-06-01 00:04:48,101 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add and remove Macbook from cart PASSED
+2022-06-01 00:04:48,116 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add Canon EOS 5D into shopping cart from Desktops Page started
+2022-06-01 00:04:50,104 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-01 00:04:53,236 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-06-01 00:04:53,699 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-06-01 00:04:53,735 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Canon EOS 5D add to cart button
+2022-06-01 00:04:55,534 [main] INFO .\src\test\resources\input\log4j.properties - user chose color red
+2022-06-01 00:04:55,619 [main] INFO .\src\test\resources\input\log4j.properties - user entered quantity
+2022-06-01 00:04:55,675 [main] INFO .\src\test\resources\input\log4j.properties - user finally added Canon EOS 5D into shopping cart
+2022-06-01 00:04:55,856 [main] INFO .\src\test\resources\input\log4j.properties - user validated the success message
+2022-06-01 00:05:01,177 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add Canon EOS 5D into shopping cart from Desktops Page PASSED
+2022-06-01 00:05:01,187 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add review to Canon EOS 5D from Desktops tab started
+2022-06-01 00:05:03,131 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-01 00:05:06,300 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-06-01 00:05:06,755 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-06-01 00:05:08,347 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Canon Eos 5D
+2022-06-01 00:05:08,391 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on write a review link
+2022-06-01 00:05:14,547 [main] INFO .\src\test\resources\input\log4j.properties - user filled out review form
+2022-06-01 00:05:14,577 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on continue Btn
+2022-06-01 00:05:14,722 [main] INFO .\src\test\resources\input\log4j.properties - Verification message is displayed
+2022-06-01 00:05:20,980 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add review to Canon EOS 5D from Desktops tab PASSED
+2022-06-01 00:05:20,988 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page started
+2022-06-01 00:05:22,959 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-01 00:05:26,094 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-06-01 00:05:26,548 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-06-01 00:05:26,580 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on add to cart option on item
+2022-06-01 00:05:28,331 [main] INFO .\src\test\resources\input\log4j.properties - user entered quantity
+2022-06-01 00:05:28,371 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on final add to cart button
+2022-06-01 00:05:28,553 [main] INFO .\src\test\resources\input\log4j.properties - user validated the success message
+2022-06-01 00:05:33,818 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User add laptop into shopping cart from Desktops page PASSED
+2022-06-01 00:05:33,825 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab started
+2022-06-01 00:05:35,816 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-01 00:05:38,947 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on the desktop tag
+2022-06-01 00:05:39,396 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on show all desktop tag
+2022-06-01 00:05:39,421 [main] INFO .\src\test\resources\input\log4j.properties - HP Banner is present in this page
+2022-06-01 00:05:39,434 [main] INFO .\src\test\resources\input\log4j.properties - Desktops is present in this page
+2022-06-01 00:05:39,446 [main] INFO .\src\test\resources\input\log4j.properties - Apple Cinema 30" is present in this page
+2022-06-01 00:05:39,459 [main] INFO .\src\test\resources\input\log4j.properties - Canon EOS 5D Camera is present in this page
+2022-06-01 00:05:39,472 [main] INFO .\src\test\resources\input\log4j.properties - HP LP3065 is present in this page
+2022-06-01 00:05:39,487 [main] INFO .\src\test\resources\input\log4j.properties - HTC Touch HD is present in this page
+2022-06-01 00:05:39,500 [main] INFO .\src\test\resources\input\log4j.properties - iPhone is present in this page
+2022-06-01 00:05:39,514 [main] INFO .\src\test\resources\input\log4j.properties - iPod Classic is present in this page
+2022-06-01 00:05:39,529 [main] INFO .\src\test\resources\input\log4j.properties - MacBook is present in this page
+2022-06-01 00:05:39,542 [main] INFO .\src\test\resources\input\log4j.properties - MacBook Air is present in this page
+2022-06-01 00:05:39,556 [main] INFO .\src\test\resources\input\log4j.properties - Palm Treo Pro is present in this page
+2022-06-01 00:05:39,569 [main] INFO .\src\test\resources\input\log4j.properties - Product 8 is present in this page
+2022-06-01 00:05:39,583 [main] INFO .\src\test\resources\input\log4j.properties - Samsung SyncMaster 941BW is present in this page
+2022-06-01 00:05:39,596 [main] INFO .\src\test\resources\input\log4j.properties - Sony VAIO is present in this page
+2022-06-01 00:05:41,789 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User verify all items are present in Desktop tab PASSED
+2022-06-01 00:08:21,776 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  started
+2022-06-01 00:08:24,323 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  UNDEFINED
+2022-06-01 00:08:58,745 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  started
+2022-06-01 00:09:01,179 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-01 00:09:01,223 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:09:01,595 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-06-01 00:09:01,637 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  UNDEFINED
+2022-06-01 00:22:15,335 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  started
+2022-06-01 00:22:17,699 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-01 00:22:17,744 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:22:18,118 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-06-01 00:22:18,160 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on heart button
+2022-06-01 00:22:48,266 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  FAILED
+2022-06-01 00:25:06,546 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  started
+2022-06-01 00:25:09,039 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-01 00:25:09,081 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-06-01 00:25:09,439 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-06-01 00:25:09,479 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on heart button
+2022-06-01 00:25:09,630 [main] INFO .\src\test\resources\input\log4j.properties - Login required message displayed
+2022-06-01 00:25:11,836 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  PASSED

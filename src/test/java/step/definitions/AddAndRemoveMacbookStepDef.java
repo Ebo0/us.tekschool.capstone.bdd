@@ -4,6 +4,7 @@ import core.Base;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import page.objects.AddAndRemoveMacbook;
+import utilities.Util;
 
 public class AddAndRemoveMacbookStepDef extends Base{
 	
@@ -57,6 +58,13 @@ public class AddAndRemoveMacbookStepDef extends Base{
 		addAndRemoveMacbook.checkingTotalOfZero(qty);
 		logger.info("user assert the total of shopping cart is zero");
 		
-
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		Util.takeScreenShot();
 	}
 }
