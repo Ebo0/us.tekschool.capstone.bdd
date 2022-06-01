@@ -25,7 +25,7 @@ public class AddReviewToCanonEos5DStepDef extends Base{
 	}
 	@When("user fill the review information with below information {string} {string} {string}")
 	public void user_fill_the_review_information_with_below_information(String string, String string2, String string3) {
-		addReviewToCanonEos5D.fillReviewForm(string, string2, string3);
+		addReviewToCanonEos5D.fillReviewForm(string, string2);
 		logger.info("user filled out review form");
 	}
 	@When("User click on Continue Button")

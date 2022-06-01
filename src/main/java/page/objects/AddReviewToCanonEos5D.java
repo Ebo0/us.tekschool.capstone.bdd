@@ -1,11 +1,11 @@
 package page.objects;
 
-import java.util.List;
+
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
+
 
 import core.Base;
 
@@ -27,9 +27,9 @@ public class AddReviewToCanonEos5D extends Base{
 	@FindBy(id="input-review")
 	private WebElement reviewInput;
 	
-	@FindBy(xpath = "//input[@name='rating']")
-//	private List<WebElement> ratingRadioButtons;
-	private WebElement ratingRadioButtons;
+	@FindBy(xpath = "//input[@name='rating'][4]")
+	private WebElement ratingRadioButton;
+
 	
 	@FindBy(id="button-review")
 	private WebElement continueButton;
@@ -45,7 +45,7 @@ public class AddReviewToCanonEos5D extends Base{
 		writeReviewLink.click();
 	}
 	
-	public void fillReviewForm(String username, String review, String t) {
+	public void fillReviewForm(String username, String review) {
 		yourNameInput.sendKeys(username);
 		reviewInput.sendKeys(review);
 		try {
@@ -54,10 +54,9 @@ public class AddReviewToCanonEos5D extends Base{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		int ratingInt = Integer.parseInt(t);
-//		List<WebElement> radioButtons = ratingRadioButtons;
-		Select select = new Select(ratingRadioButtons);
-		select.selectByIndex(ratingInt);
+		ratingRadioButton.click();
+		
+
 
 		try {
 			Thread.sleep(3000);
