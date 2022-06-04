@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 49433900,
+              "duration": 61012400,
               "status": "passed"
             },
             "line": 5,
@@ -23,82 +23,36 @@
           },
           {
             "result": {
-              "duration": 40008400,
+              "duration": 45010600,
               "status": "passed"
             },
             "line": 6,
-            "name": "User click on MyAccount",
+            "name": "User click on Laptop \u0026NoteBook tab",
             "match": {
-              "location": "step.definitions.LoginStepDef.user_click_on_my_account()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 216614700,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User click on Login",
-            "match": {
-              "location": "step.definitions.LoginStepDef.user_click_on_login()"
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_laptop_note_book_tab()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 96021800,
+              "duration": 414746600,
               "status": "passed"
             },
-            "line": 8,
-            "name": "User enter username \"vascata@tekschool.us\" and password \"123456\"",
+            "line": 7,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"vascata@tekschool.us\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"123456\"",
-                  "offset": 56
-                }
-              ],
-              "location": "step.definitions.LoginStepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_show_all_laptop_note_book_option()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 326328000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User click on Login button",
-            "match": {
-              "location": "step.definitions.LoginStepDef.user_click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2162638200,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User should be logged in to MyAccount dashboard",
-            "match": {
-              "location": "step.definitions.LoginStepDef.user_should_be_logged_in_to_my_account_dashboard()"
-            },
-            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2022-06-04T03:39:10.779Z",
+        "start_timestamp": "2022-06-04T04:49:47.513Z",
         "before": [
           {
             "result": {
-              "duration": 2597676000,
+              "duration": 3064261100,
               "status": "passed"
             },
             "match": {
@@ -106,14 +60,14 @@
             }
           }
         ],
-        "line": 22,
-        "name": "Edit your affiliate information from Cheque payment method to Bank Transfer",
+        "line": 9,
+        "name": "",
         "description": "",
-        "id": "edit-your-affiliate-information-from-cheque-payment-method-to-bank-transfer;edit-your-affiliate-information-from-cheque-payment-method-to-bank-transfer;;2",
+        "id": "validate-the-price-of-macbook-pro-is-2000;",
         "after": [
           {
             "result": {
-              "duration": 44009500,
+              "duration": 4149447500,
               "status": "passed"
             },
             "match": {
@@ -122,87 +76,35 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 232051000,
+              "duration": 1085407300,
               "status": "passed"
             },
-            "line": 14,
-            "name": "User click on ‘Edit your affiliate informationlink",
+            "line": 10,
+            "name": "User click on ‘MacBook Pro’ item",
             "match": {
-              "location": "step.definitions.EditAffiliateInfoStepDef.user_click_on_edit_your_affiliate_informationlink()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 37008000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user click on Bank Transfer radio button",
-            "match": {
-              "location": "step.definitions.EditAffiliateInfoStepDef.user_click_on_bank_transfer_radio_button()"
+              "location": "step.definitions.ValidateThePriceOfMacbookProStepDef.user_click_on_mac_book_pro_item()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 211222200,
+              "duration": 2168912700,
               "status": "passed"
             },
-            "line": 16,
-            "name": "User fill Bank information with below information \"mpsBank\" \"123456\" \"1s5d3f\" \"MyName\" \"99074649\"",
+            "line": 11,
+            "name": "User should see \"$2,000.00\" price tag is present on UI.",
             "match": {
               "arguments": [
                 {
-                  "val": "\"mpsBank\"",
-                  "offset": 50
-                },
-                {
-                  "val": "\"123456\"",
-                  "offset": 60
-                },
-                {
-                  "val": "\"1s5d3f\"",
-                  "offset": 69
-                },
-                {
-                  "val": "\"MyName\"",
-                  "offset": 78
-                },
-                {
-                  "val": "\"99074649\"",
-                  "offset": 87
+                  "val": "\"$2,000.00\"",
+                  "offset": 16
                 }
               ],
-              "location": "step.definitions.EditAffiliateInfoStepDef.user_fill_bank_information_with_below_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 348202700,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User click on Continue button",
-            "match": {
-              "location": "step.definitions.RegisterAsAffiliateStepDef.user_click_on_continue_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2141340800,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "User should see a success message",
-            "match": {
-              "location": "step.definitions.RegisterAsAffiliateStepDef.user_should_see_a_success_message()"
+              "location": "step.definitions.ValidateThePriceOfMacbookProStepDef.user_should_see_$_price_tag_is_present_on_ui(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -212,16 +114,16 @@
             "name": "@CompleteTest"
           },
           {
-            "name": "@EditAffiliateInfo"
+            "name": "@ValidatePrice"
           }
         ]
       }
     ],
-    "name": "Edit your affiliate information from Cheque payment method to Bank Transfer",
+    "name": "Validate the price of MacBook Pro is 2000",
     "description": "",
-    "id": "edit-your-affiliate-information-from-cheque-payment-method-to-bank-transfer",
+    "id": "validate-the-price-of-macbook-pro-is-2000",
     "keyword": "Feature",
-    "uri": "classpath:feature/EditAffiliateInfo.feature",
+    "uri": "classpath:feature/PriceValidationMacbook.feature",
     "tags": [
       {
         "name": "@CompleteTest",

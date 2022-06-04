@@ -1035,3 +1035,17 @@
 2022-06-03 23:39:17,150 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on continue button
 2022-06-03 23:39:17,171 [main] INFO .\src\test\resources\input\log4j.properties - user verified the success message
 2022-06-03 23:39:19,336 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer PASSED
+2022-06-03 23:46:36,632 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Edit your account Information started
+2022-06-03 23:46:39,154 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 23:46:39,197 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on My Account Button
+2022-06-03 23:46:39,417 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Login Link
+2022-06-03 23:46:39,512 [main] INFO .\src\test\resources\input\log4j.properties - user entered login credentials
+2022-06-03 23:46:39,855 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on login button
+2022-06-03 23:46:42,057 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Edit your account Information UNDEFINED
+2022-06-04 00:49:47,635 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  started
+2022-06-04 00:49:50,685 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-04 00:49:50,730 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-06-04 00:49:51,146 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-06-04 00:49:52,232 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on macbook pro item
+2022-06-04 00:49:52,251 [main] INFO .\src\test\resources\input\log4j.properties - User sees the price tag presented on UI
+2022-06-04 00:49:58,551 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  PASSED
