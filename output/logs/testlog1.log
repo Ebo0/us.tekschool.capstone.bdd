@@ -988,3 +988,50 @@
 2022-06-03 22:40:12,759 [main] INFO .\src\test\resources\input\log4j.properties - user entered login credentials
 2022-06-03 22:40:13,087 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on login button
 2022-06-03 22:40:15,282 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User Login PASSED
+2022-06-03 22:50:08,876 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Register as an Affiliate user with Cheque Payment Method started
+2022-06-03 22:50:11,342 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Register as an Affiliate user with Cheque Payment Method UNDEFINED
+2022-06-03 22:51:24,548 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Register as an Affiliate user with Cheque Payment Method started
+2022-06-03 22:51:27,103 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 22:51:27,146 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on My Account Button
+2022-06-03 22:51:27,362 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Login Link
+2022-06-03 22:51:27,454 [main] INFO .\src\test\resources\input\log4j.properties - user entered login credentials
+2022-06-03 22:51:27,786 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on login button
+2022-06-03 22:51:29,980 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Register as an Affiliate user with Cheque Payment Method UNDEFINED
+2022-06-03 23:17:47,697 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Register as an Affiliate user with Cheque Payment Method started
+2022-06-03 23:17:50,230 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 23:17:50,274 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on My Account Button
+2022-06-03 23:17:50,495 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Login Link
+2022-06-03 23:17:50,591 [main] INFO .\src\test\resources\input\log4j.properties - user entered login credentials
+2022-06-03 23:17:50,806 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on login button
+2022-06-03 23:18:20,908 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Register as an Affiliate user with Cheque Payment Method FAILED
+2022-06-03 23:18:27,325 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Register as an Affiliate user with Cheque Payment Method started
+2022-06-03 23:18:29,909 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 23:18:29,951 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on My Account Button
+2022-06-03 23:18:30,172 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Login Link
+2022-06-03 23:18:30,262 [main] INFO .\src\test\resources\input\log4j.properties - user entered login credentials
+2022-06-03 23:18:30,590 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on login button
+2022-06-03 23:18:32,964 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on register as an affiliate link
+2022-06-03 23:18:33,153 [main] INFO .\src\test\resources\input\log4j.properties - user filled out the form
+2022-06-03 23:18:33,189 [main] INFO .\src\test\resources\input\log4j.properties - user checked the agreement checkbox
+2022-06-03 23:18:33,598 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on continue button
+2022-06-03 23:18:33,617 [main] INFO .\src\test\resources\input\log4j.properties - user verified the success message
+2022-06-03 23:18:35,777 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Register as an Affiliate user with Cheque Payment Method PASSED
+2022-06-03 23:25:53,885 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer started
+2022-06-03 23:25:56,468 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 23:25:56,511 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on My Account Button
+2022-06-03 23:25:56,728 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Login Link
+2022-06-03 23:25:56,823 [main] INFO .\src\test\resources\input\log4j.properties - user entered login credentials
+2022-06-03 23:25:57,155 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on login button
+2022-06-03 23:25:59,351 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer UNDEFINED
+2022-06-03 23:39:10,893 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer started
+2022-06-03 23:39:13,475 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 23:39:13,515 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on My Account Button
+2022-06-03 23:39:13,733 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Login Link
+2022-06-03 23:39:13,830 [main] INFO .\src\test\resources\input\log4j.properties - user entered login credentials
+2022-06-03 23:39:14,157 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on login button
+2022-06-03 23:39:16,551 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on edit affiliate info link
+2022-06-03 23:39:16,590 [main] INFO .\src\test\resources\input\log4j.properties - user selected bank transfer radio button
+2022-06-03 23:39:16,802 [main] INFO .\src\test\resources\input\log4j.properties - user filled out the bank transfer form
+2022-06-03 23:39:17,150 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on continue button
+2022-06-03 23:39:17,171 [main] INFO .\src\test\resources\input\log4j.properties - user verified the success message
+2022-06-03 23:39:19,336 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer PASSED
