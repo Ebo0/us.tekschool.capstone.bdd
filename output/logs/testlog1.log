@@ -947,3 +947,44 @@
 2022-06-01 01:03:38,735 [main] INFO .\src\test\resources\input\log4j.properties - user click on product compare link
 2022-06-01 01:03:38,762 [main] INFO .\src\test\resources\input\log4j.properties - user validates comparison table displayed
 2022-06-01 01:03:40,933 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison PASSED
+2022-06-03 20:37:50,837 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison started
+2022-06-03 20:37:54,670 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 20:37:54,722 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-06-03 20:37:55,136 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-06-03 20:37:55,182 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on compare button on macbook
+2022-06-03 20:37:55,214 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on compare button on macbook air
+2022-06-03 20:37:55,237 [main] INFO .\src\test\resources\input\log4j.properties - user validates success message
+2022-06-03 20:37:56,520 [main] INFO .\src\test\resources\input\log4j.properties - user click on product compare link
+2022-06-03 20:37:56,544 [main] INFO .\src\test\resources\input\log4j.properties - user validates comparison table displayed
+2022-06-03 20:37:58,721 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison PASSED
+2022-06-03 20:40:25,914 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  started
+2022-06-03 20:40:28,453 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  UNDEFINED
+2022-06-03 20:40:45,500 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  started
+2022-06-03 20:40:47,937 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 20:40:47,984 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-06-03 20:40:48,396 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-06-03 20:40:48,437 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  UNDEFINED
+2022-06-03 21:35:45,214 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  started
+2022-06-03 21:35:47,785 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 21:35:47,833 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-06-03 21:35:48,233 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-06-03 21:35:48,276 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  UNDEFINED
+2022-06-03 21:38:51,537 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  started
+2022-06-03 21:38:54,170 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 21:38:54,213 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Laptops & Notebooks navbar
+2022-06-03 21:38:54,612 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptops and notebook link
+2022-06-03 21:38:56,825 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on macbook pro item
+2022-06-03 21:38:56,843 [main] INFO .\src\test\resources\input\log4j.properties - User sees the price tag presented on UI
+2022-06-03 21:39:03,134 [main] INFO .\src\test\resources\input\log4j.properties - Scenario  PASSED
+2022-06-03 22:01:38,114 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User Login started
+2022-06-03 22:01:40,719 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User Login UNDEFINED
+2022-06-03 22:01:58,387 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User Login started
+2022-06-03 22:02:00,856 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 22:02:00,901 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User Login UNDEFINED
+2022-06-03 22:40:09,700 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User Login started
+2022-06-03 22:40:12,402 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-03 22:40:12,445 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on My Account Button
+2022-06-03 22:40:12,660 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Login Link
+2022-06-03 22:40:12,759 [main] INFO .\src\test\resources\input\log4j.properties - user entered login credentials
+2022-06-03 22:40:13,087 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on login button
+2022-06-03 22:40:15,282 [main] INFO .\src\test\resources\input\log4j.properties - Scenario User Login PASSED
