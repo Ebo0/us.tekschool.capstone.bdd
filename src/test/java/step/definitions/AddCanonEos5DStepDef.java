@@ -3,6 +3,7 @@ package step.definitions;
 import core.Base;
 import io.cucumber.java.en.When;
 import page.objects.AddCanonEos5D;
+import utilities.Util;
 
 public class AddCanonEos5DStepDef extends Base{
 	
@@ -23,6 +24,15 @@ public class AddCanonEos5DStepDef extends Base{
 	public void user_click_add_to_cart_button() {
 		addCanonEos5D.finallyAddtoCart();
 		logger.info("user finally added Canon EOS 5D into shopping cart");
+		
+		Util.takeScreenShot();
+		
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }

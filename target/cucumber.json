@@ -11,7 +11,749 @@
         "steps": [
           {
             "result": {
-              "duration": 51001500,
+              "duration": 54011200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40009500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Laptop \u0026NoteBook tab",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 388736700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:27:12.720Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2461999900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "product-comparison;",
+        "after": [
+          {
+            "result": {
+              "duration": 38008000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40010600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on heart icon to add ‘Sony VaIO’ laptop to wish list",
+            "match": {
+              "location": "step.definitions.AddingItemToWishListStepDef.user_click_on_heart_icon_to_add_sony_va_io_laptop_to_wish_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2304230000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should get a message ‘You must login or create an account to save Sony VAIO to your wish list!’",
+            "match": {
+              "location": "step.definitions.AddingItemToWishListStepDef.user_should_get_a_message_you_must_login_or_create_an_account_to_save_sony_vaio_to_your_wish_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@ProductComparison"
+          }
+        ]
+      }
+    ],
+    "name": "Product Comparison",
+    "description": "",
+    "id": "product-comparison",
+    "keyword": "Feature",
+    "uri": "classpath:feature/AddingItemtoWishList.feature",
+    "tags": [
+      {
+        "name": "@CompleteTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26005900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3148102900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 486339000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:27:18.128Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1997642400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User verify all items are present in Desktop tab",
+        "description": "",
+        "id": "retail-desktop-page;user-verify-all-items-are-present-in-desktop-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 37127200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3129457000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246003800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_show_all_desktops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2375015700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should see all items are present in Desktop page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_should_see_all_items_are_present_in_desktop_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@verifyDesktop"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24005300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3140235700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488187100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:27:29.604Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2076214800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User add laptop into shopping cart from Desktops page",
+        "description": "",
+        "id": "retail-desktop-page;user-add-laptop-into-shopping-cart-from-desktops-page",
+        "after": [
+          {
+            "result": {
+              "duration": 4140725800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33007600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on ADD TO CART option on HP LP3065 item",
+            "match": {
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_click_on_add_to_cart_option_on_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1733373300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select quantity \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_select_quantity(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40053000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click add to cart button",
+            "match": {
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_click_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1327885900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should see a message \"Success: you have added HP LP 3065 to your Shopping Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: you have added HP LP 3065 to your Shopping Cart\"",
+                  "offset": 26
+                }
+              ],
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_should_see_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@addLaptopToCart"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24005800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3129183600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 485745100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:27:42.619Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2048388600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User add Canon EOS 5D into shopping cart from Desktops Page",
+        "description": "",
+        "id": "retail-desktop-page;user-add-canon-eos-5d-into-shopping-cart-from-desktops-page",
+        "after": [
+          {
+            "result": {
+              "duration": 95743100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35123100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click ADD TO CART option on Canon EOS 5D item",
+            "match": {
+              "location": "step.definitions.AddCanonEos5DStepDef.user_click_add_to_cart_option_on_canon_eos_5d_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2150546600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User select color from dropdown Red",
+            "match": {
+              "location": "step.definitions.AddCanonEos5DStepDef.user_select_color_from_dropdown_red()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119027000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User select quantity \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_select_quantity(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32007300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click add to Cart button",
+            "match": {
+              "location": "step.definitions.AddCanonEos5DStepDef.user_click_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1303941400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should see a message \"Success: You have added Canon EOS 5D to your shopping cart!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have added Canon EOS 5D to your shopping cart!\"",
+                  "offset": 26
+                }
+              ],
+              "location": "step.definitions.AddToCartFromDesktopPageStepDef.user_should_see_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@addCanonEos5DToCart"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 27185400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3130561900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 485027400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_click_on_show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:27:52.053Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2021860200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "User add review to Canon EOS 5D from Desktops tab",
+        "description": "",
+        "id": "retail-desktop-page;user-add-review-to-canon-eos-5d-from-desktops-tab;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4157043500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1553729000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click on Canon EOS 5D item",
+            "match": {
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_click_on_canon_eos_5d_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47011600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click on write a review link",
+            "match": {
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_click_on_write_a_review_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6144155200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user fill the review information with below information \"yourname\" \"Lorem ipsum dolor sit amet, consectetur tincidunt.\" \"\u003cRating\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yourname\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"Lorem ipsum dolor sit amet, consectetur tincidunt.\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"\u003cRating\u003e\"",
+                  "offset": 120
+                }
+              ],
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_fill_the_review_information_with_below_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32008400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2264010500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should see a message with \"Thank you for your review. It has been submitted to the webmaster for approval.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your review. It has been submitted to the webmaster for approval.\"",
+                  "offset": 31
+                }
+              ],
+              "location": "step.definitions.AddReviewToCanonEos5DStepDef.user_should_see_a_message_with(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@addReviewToCanonEos5D"
+          }
+        ]
+      }
+    ],
+    "name": "Retail desktop page",
+    "description": "",
+    "id": "retail-desktop-page",
+    "keyword": "Feature",
+    "uri": "classpath:feature/Desktops.feature",
+    "tags": [
+      {
+        "name": "@CompleteTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29006100,
               "status": "passed"
             },
             "line": 5,
@@ -24,11 +766,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-05T03:47:15.421Z",
+        "start_timestamp": "2022-06-05T04:28:11.922Z",
         "before": [
           {
             "result": {
-              "duration": 2555049600,
+              "duration": 2049203200,
               "status": "passed"
             },
             "match": {
@@ -43,7 +785,7 @@
         "after": [
           {
             "result": {
-              "duration": 42009900,
+              "duration": 35726000,
               "status": "passed"
             },
             "match": {
@@ -56,30 +798,127 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 36007600,
+              "status": "passed"
             },
             "line": 8,
             "name": "User click on Currency",
-            "match": {},
+            "match": {
+              "location": "step.definitions.UserVerifyCurrencyValuesChangeStepDef.user_click_on_currency()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1000200,
-              "status": "skipped"
+              "duration": 339097000,
+              "status": "passed"
             },
             "line": 9,
             "name": "User Chose Euro from dropdown",
-            "match": {},
+            "match": {
+              "location": "step.definitions.UserVerifyCurrencyValuesChangeStepDef.user_chose_euro_from_dropdown()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2185674900,
+              "status": "passed"
             },
             "line": 10,
             "name": "currency value should change to Euro",
-            "match": {},
+            "match": {
+              "location": "step.definitions.UserVerifyCurrencyValuesChangeStepDef.currency_value_should_change_to_euro()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24006300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:28:16.608Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2071879100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User empty Shopping cart message displays",
+        "description": "",
+        "id": "home-page;user-empty-shopping-cart-message-displays",
+        "after": [
+          {
+            "result": {
+              "duration": 34007900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32007700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on shopping cart",
+            "match": {
+              "location": "step.definitions.verifyShoppingCartEmptyStepDef.user_click_on_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2244807700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "\"Your shopping cart is empty!\" message should display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your shopping cart is empty!\"",
+                  "offset": 0
+                }
+              ],
+              "location": "step.definitions.verifyShoppingCartEmptyStepDef.your_shopping_cart_is_empty_message_should_display(java.lang.String)"
+            },
             "keyword": "Then "
           }
         ],
@@ -98,6 +937,1253 @@
     "id": "home-page",
     "keyword": "Feature",
     "uri": "classpath:feature/HomePage.feature",
+    "tags": [
+      {
+        "name": "@CompleteTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24006100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33007200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Laptop \u0026NoteBook tab",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 392393400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:28:21.023Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2057776900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User add and remove Macbook from cart",
+        "description": "",
+        "id": "user-add-and-remove-macbook-from-cart;user-add-and-remove-macbook-from-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 4154693300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28006800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on Laptop \u0026NoteBook tab",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 218739200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1308179200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on MacBook item",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_mac_book_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32007000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click add Macbook to Cart button",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_add_macbook_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19005000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see a message ‘Success: You have added MacBook to your shopping cart!’",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_should_see_a_message_success_you_have_added_mac_book_to_your_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147593400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should see \"1\" item(s) \"602.00\" showed to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"602.00\"",
+                  "offset": 28
+                }
+              ],
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_should_see_tem_s_showed_to_the_cart(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31006500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on cart option",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_cart_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95041300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on red X button to remove the item from cart",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_red_x_button_to_remove_the_item_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2392086300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "item should be removed and cart should show ‘\"0\" item(s)’",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 45
+                }
+              ],
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.item_should_be_removed_and_cart_should_show_item_s(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@AddAndRemoveMacBook"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25005600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35007600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Laptop \u0026NoteBook tab",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 379945300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:28:31.968Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2038133100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Product Comparison",
+        "description": "",
+        "id": "user-add-and-remove-macbook-from-cart;product-comparison",
+        "after": [
+          {
+            "result": {
+              "duration": 37006700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36009600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click on product comparison icon on ‘MacBook’",
+            "match": {
+              "location": "step.definitions.ProductComparisonStepDef.user_click_on_product_comparison_icon_on_mac_book()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28005700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on product comparison icon on ‘MacBook Air",
+            "match": {
+              "location": "step.definitions.ProductComparisonStepDef.user_click_on_product_comparison_icon_on_mac_book_air()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021907900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should see a message ‘Success: You have added MacBook Air to your product comparison!’",
+            "match": {
+              "location": "step.definitions.ProductComparisonStepDef.user_should_see_a_message_success_you_have_added_mac_book_air_to_your_product_comparison()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 273892400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Product comparison link",
+            "match": {
+              "location": "step.definitions.ProductComparisonStepDef.user_click_on_product_comparison_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2129423600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should see Product Comparison Chart",
+            "match": {
+              "location": "step.definitions.ProductComparisonStepDef.user_should_see_product_comparison_chart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@ProductComparisons"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23005400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35008400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Laptop \u0026NoteBook tab",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 378264400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:28:37.989Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2053276800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Adding an item to Wish list",
+        "description": "",
+        "id": "user-add-and-remove-macbook-from-cart;adding-an-item-to-wish-list",
+        "after": [
+          {
+            "result": {
+              "duration": 36008600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36008300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on heart icon to add ‘Sony VaIO’ laptop to wish list",
+            "match": {
+              "location": "step.definitions.AddingItemToWishListStepDef.user_click_on_heart_icon_to_add_sony_va_io_laptop_to_wish_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2290011700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should get a message ‘You must login or create an account to save Sony VAIO to your wish list!’",
+            "match": {
+              "location": "step.definitions.AddingItemToWishListStepDef.user_should_get_a_message_you_must_login_or_create_an_account_to_save_sony_vaio_to_your_wish_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@AddingItemToWishList"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22004900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35007300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Laptop \u0026NoteBook tab",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 376086500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:28:42.845Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1979271300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "",
+        "description": "",
+        "id": "user-add-and-remove-macbook-from-cart;",
+        "after": [
+          {
+            "result": {
+              "duration": 4166827600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1087519200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User click on ‘MacBook Pro’ item",
+            "match": {
+              "location": "step.definitions.ValidateThePriceOfMacbookProStepDef.user_click_on_mac_book_pro_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2140345500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should see \"$2,000.00\" price tag is present on UI.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$2,000.00\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step.definitions.ValidateThePriceOfMacbookProStepDef.user_should_see_$_price_tag_is_present_on_ui(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@ValidatePrice"
+          }
+        ]
+      }
+    ],
+    "name": "User add and remove Macbook from cart",
+    "description": "",
+    "id": "user-add-and-remove-macbook-from-cart",
+    "keyword": "Feature",
+    "uri": "classpath:feature/LaptopAndNotebook.feature",
+    "tags": [
+      {
+        "name": "@CompleteTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23005000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33007100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205043200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86019100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \"vascata@tekschool.us\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vascata@tekschool.us\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 56
+                }
+              ],
+              "location": "step.definitions.LoginStepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211741200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6206944500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_should_be_logged_in_to_my_account_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:28:52.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2053498200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Register as an Affiliate user with Cheque Payment Method",
+        "description": "",
+        "id": "user-login;register-as-an-affiliate-user-with-cheque-payment-method",
+        "after": [
+          {
+            "result": {
+              "duration": 35514700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//ul[@class\u003d\u0027list-unstyled\u0027]//a[text()\u003d\u0027Register for an affiliate account\u0027]\"}\n  (Session info: chrome\u003d102.0.5005.63)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-GNRUHDK\u0027, ip: \u002710.0.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\Ebo\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 120763ae1aeaa74da2fe6e9127f96fca\n*** Element info: {Using\u003dxpath, value\u003d//ul[@class\u003d\u0027list-unstyled\u0027]//a[text()\u003d\u0027Register for an affiliate account\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)\r\n\tat page.objects.RegisterAsAffiliate.clickOnRegisterAsAnAffiliateLink(RegisterAsAffiliate.java:43)\r\n\tat step.definitions.RegisterAsAffiliateStepDef.user_click_on_register_for_an_affiliate_account_link(RegisterAsAffiliateStepDef.java:17)\r\n\tat ✽.User click on ‘Register for an Affiliate Account’ link(classpath:feature/RetailPage.feature:14)\r\n",
+              "duration": 30060602400,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "User click on ‘Register for an Affiliate Account’ link",
+            "match": {
+              "location": "step.definitions.RegisterAsAffiliateStepDef.user_click_on_register_for_an_affiliate_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User fill affiliate form with following information \"\u003ccompany\u003e\" \"\u003cwebsite\u003e\" \"\u003ctaxID\u003e\" \"\u003cpaymentMethod\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003ccompany\u003e\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"\u003cwebsite\u003e\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"\u003ctaxID\u003e\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"\u003cpaymentMethod\u003e\"",
+                  "offset": 86
+                }
+              ],
+              "location": "step.definitions.RegisterAsAffiliateStepDef.user_fill_affiliate_form_with_following_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User check on About us check box",
+            "match": {
+              "location": "step.definitions.RegisterAsAffiliateStepDef.user_check_on_about_us_check_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User click on Continue button",
+            "match": {
+              "location": "step.definitions.RegisterAsAffiliateStepDef.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User should see a success message",
+            "match": {
+              "location": "step.definitions.RegisterAsAffiliateStepDef.user_should_see_a_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@RegisterAsAffiliate"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28684200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40009600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210922100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98326500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \"vascata@tekschool.us\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vascata@tekschool.us\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 56
+                }
+              ],
+              "location": "step.definitions.LoginStepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231558000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8402076400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_should_be_logged_in_to_my_account_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:29:31.586Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2057010300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Edit your affiliate information from Cheque payment method to Bank Transfer",
+        "description": "",
+        "id": "user-login;edit-your-affiliate-information-from-cheque-payment-method-to-bank-transfer",
+        "after": [
+          {
+            "result": {
+              "duration": 36007800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 235051900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on ‘Edit your affiliate informationlink",
+            "match": {
+              "location": "step.definitions.EditAffiliateInfoStepDef.user_click_on_edit_your_affiliate_informationlink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39009100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on Bank Transfer radio button",
+            "match": {
+              "location": "step.definitions.EditAffiliateInfoStepDef.user_click_on_bank_transfer_radio_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2357474500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User fill Bank information with below information \"\u003cbankName\u003e\" \"\u003cabaNumber\u003e\" \"\u003cswiftCode\u003e\" \"\u003caccountName\u003e\" \"\u003caccountNumber\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cbankName\u003e\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"\u003cabaNumber\u003e\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"\u003cswiftCode\u003e\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"\u003caccountName\u003e\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"\u003caccountNumber\u003e\"",
+                  "offset": 107
+                }
+              ],
+              "location": "step.definitions.EditAffiliateInfoStepDef.user_fill_bank_information_with_below_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 339777300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on Continue button",
+            "match": {
+              "location": "step.definitions.RegisterAsAffiliateStepDef.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2134967400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should see a success message",
+            "match": {
+              "location": "step.definitions.RegisterAsAffiliateStepDef.user_should_see_a_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@EditAffiliateInfo"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23005500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home page",
+            "match": {
+              "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35006800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251452300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87019700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \"vascata@tekschool.us\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vascata@tekschool.us\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 56
+                }
+              ],
+              "location": "step.definitions.LoginStepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215045200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5912503100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "step.definitions.LoginStepDef.user_should_be_logged_in_to_my_account_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-05T04:29:47.807Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2067016400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Edit your account Information",
+        "description": "",
+        "id": "user-login;edit-your-account-information;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 37007900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 679061200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on ‘Edit your account information’ link",
+            "match": {
+              "location": "step.definitions.EditAccountInfoStepDef.user_click_on_edit_your_account_information_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238053400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User modify below information \"Valara\" \"Calata\" \"Vascataa@tekschool.us\" \"99004649\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Valara\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Calata\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Vascataa@tekschool.us\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"99004649\"",
+                  "offset": 72
+                }
+              ],
+              "location": "step.definitions.EditAccountInfoStepDef.user_modify_below_information(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340865500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click on continue button",
+            "match": {
+              "location": "step.definitions.EditAccountInfoStepDef.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2128808300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should see following message \" Success: Your account has been successfully updated.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Success: Your account has been successfully updated.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "step.definitions.EditAccountInfoStepDef.user_should_see_following_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@editAccountInfo"
+          }
+        ]
+      }
+    ],
+    "name": "User Login",
+    "description": "",
+    "id": "user-login",
+    "keyword": "Feature",
+    "uri": "classpath:feature/RetailPage.feature",
     "tags": [
       {
         "name": "@CompleteTest",

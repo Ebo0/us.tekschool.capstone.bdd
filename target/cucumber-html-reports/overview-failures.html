@@ -80,7 +80,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Capstone-Project-Ebo</td>
               <td>1</td>
-            <td>04 Jun 2022, 23:47</td>
+            <td>05 Jun 2022, 00:30</td>
     </tr>
   </tbody>
 </table>
@@ -120,25 +120,25 @@ $(document).ready(function() {
 <div class="element">
       <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_1739584107.html">Home Page</a>
+      <a href="report-feature_4_1012980495.html">User Login</a>
     </div>
   
   
 <div class="tags indention">
       <b>Tags:</b>
            <a href="report-tag_303864266.html">@CompleteTest</a>
-           <a href="report-tag_2012833901.html">@HomePage</a>
+           <a href="report-tag_1842583095.html">@RegisterAsAffiliate</a>
       </div>
 
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">30.060</span>
 
 
     <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
 <div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">User verify currency values change</span>
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Register as an Affiliate user with Cheque Payment Method</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -169,7 +169,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">2.555</span>
+  <span class="lead-duration duration">2.053</span>
 
           </div>
 
@@ -201,9 +201,76 @@ $(document).ready(function() {
   <div id="steps-3" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief undefined">
+<div class="brief failed">
   <span class="keyword indention">When</span>
-  <span class="name">User click on Currency</span>
+  <span class="name">User click on &lsquo;Register for an Affiliate Account&rsquo; link</span>
+  
+  <span class="lead-duration duration">30.060</span>
+
+</div>
+
+        
+
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class='list-unstyled']//a[text()='Register for an affiliate account']&quot;}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GNRUHDK', ip: '10.0.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Ebo\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 120763ae1aeaa74da2fe6e9127f96fca
+*** Element info: {Using=xpath, value=//ul[@class='list-unstyled']//a[text()='Register for an affiliate account']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at page.objects.RegisterAsAffiliate.clickOnRegisterAsAnAffiliateLink(RegisterAsAffiliate.java:43)
+	at step.definitions.RegisterAsAffiliateStepDef.user_click_on_register_for_an_affiliate_account_link(RegisterAsAffiliateStepDef.java:17)
+	at &#10045;.User click on &lsquo;Register for an Affiliate Account&rsquo; link(classpath:feature/RetailPage.feature:14)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">User fill affiliate form with following information <span class="argument">&quot;&lt;company&gt;&quot;</span> <span class="argument">&quot;&lt;website&gt;&quot;</span> <span class="argument">&quot;&lt;taxID&gt;&quot;</span> <span class="argument">&quot;&lt;paymentMethod&gt;&quot;</span></span>
   
   <span class="lead-duration duration">0.000</span>
 
@@ -229,9 +296,35 @@ $(document).ready(function() {
         
 <div class="brief skipped">
   <span class="keyword indention">And</span>
-  <span class="name">User Chose Euro from dropdown</span>
+  <span class="name">User check on About us check box</span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">User click on Continue button</span>
+  
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -255,7 +348,7 @@ $(document).ready(function() {
         
 <div class="brief skipped">
   <span class="keyword indention">Then</span>
-  <span class="name">currency value should change to Euro</span>
+  <span class="name">User should see a success message</span>
   
   <span class="lead-duration duration">0.000</span>
 
@@ -284,7 +377,7 @@ $(document).ready(function() {
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -296,13 +389,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.042</span>
+  <span class="lead-duration duration">0.035</span>
 
           </div>
 
