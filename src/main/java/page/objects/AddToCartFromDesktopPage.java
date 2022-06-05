@@ -42,5 +42,4 @@ public class AddToCartFromDesktopPage extends Base {
 		else
 			return false;
 	}
-
 }

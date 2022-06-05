@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61012400,
+              "duration": 51001500,
               "status": "passed"
             },
             "line": 5,
@@ -20,39 +20,15 @@
               "location": "step.definitions.DesktopStepDef.user_is_on_retail_home_page()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 45010600,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User click on Laptop \u0026NoteBook tab",
-            "match": {
-              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_laptop_note_book_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 414746600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User click on Show all Laptop \u0026NoteBook option",
-            "match": {
-              "location": "step.definitions.AddAndRemoveMacbookStepDef.user_click_on_show_all_laptop_note_book_option()"
-            },
-            "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2022-06-04T04:49:47.513Z",
+        "start_timestamp": "2022-06-05T03:47:15.421Z",
         "before": [
           {
             "result": {
-              "duration": 3064261100,
+              "duration": 2555049600,
               "status": "passed"
             },
             "match": {
@@ -60,14 +36,14 @@
             }
           }
         ],
-        "line": 9,
-        "name": "",
+        "line": 7,
+        "name": "User verify currency values change",
         "description": "",
-        "id": "validate-the-price-of-macbook-pro-is-2000;",
+        "id": "home-page;user-verify-currency-values-change",
         "after": [
           {
             "result": {
-              "duration": 4149447500,
+              "duration": 42009900,
               "status": "passed"
             },
             "match": {
@@ -80,32 +56,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1085407300,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 10,
-            "name": "User click on ‘MacBook Pro’ item",
-            "match": {
-              "location": "step.definitions.ValidateThePriceOfMacbookProStepDef.user_click_on_mac_book_pro_item()"
+            "line": 8,
+            "name": "User click on Currency",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "skipped"
             },
+            "line": 9,
+            "name": "User Chose Euro from dropdown",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2168912700,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 11,
-            "name": "User should see \"$2,000.00\" price tag is present on UI.",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"$2,000.00\"",
-                  "offset": 16
-                }
-              ],
-              "location": "step.definitions.ValidateThePriceOfMacbookProStepDef.user_should_see_$_price_tag_is_present_on_ui(java.lang.String)"
-            },
+            "line": 10,
+            "name": "currency value should change to Euro",
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -114,16 +88,16 @@
             "name": "@CompleteTest"
           },
           {
-            "name": "@ValidatePrice"
+            "name": "@HomePage"
           }
         ]
       }
     ],
-    "name": "Validate the price of MacBook Pro is 2000",
+    "name": "Home Page",
     "description": "",
-    "id": "validate-the-price-of-macbook-pro-is-2000",
+    "id": "home-page",
     "keyword": "Feature",
-    "uri": "classpath:feature/PriceValidationMacbook.feature",
+    "uri": "classpath:feature/HomePage.feature",
     "tags": [
       {
         "name": "@CompleteTest",
